@@ -33,6 +33,7 @@ The table above depicts the training time (in seconds) for the FN system for dif
 |------------------|-----:|-----:|
 | 50               | 3311 | 6092 |
 | 100              | 6108 | 9300 |
+
 The table above depicts the training time (in seconds) for the RD system for different model complexities.
 
 ### Physical System of Wildfire
