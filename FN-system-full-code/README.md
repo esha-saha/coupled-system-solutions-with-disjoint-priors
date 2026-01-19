@@ -1,3 +1,5 @@
+## Fitzhugh-Nagumo System
+
 We consider the Fitzhugh-Nagumo (FN) type reaction-diffusion system, in a 2D spatial domain $\Omega\subset \mathbb{R}^2$ with periodic boundary conditions, whose governing equations are two coupled PDEs described as
 
 $u_t = \gamma_u \Delta u + u - u^3 - v + \alpha$
