@@ -13,4 +13,9 @@ This particular RD equations in this test example displays spiral waves subject 
 In order to generate the simulated training dataset, we solve the model using a finite difference method with inputs $x,y\in [-10,10]$ and $t\in [0,10]$. We downsample from a full solution with by uniformly selecting $128\times 128$ spatial points and 101 temporal steps.
 Thus the dataset is of size $128\times128\times101$.
 
-Note: 
+Notes: 
+1. One of the the best trained neural network model that has been used to some of the figures in the paper have been given in rd-L0-best-100dim-5000Ns-lr-0.005-L0-1e-08. 
+
+2. The files Reaction_Diff_spiral_U.npy and Reaction_Diff_spiral_V.npy are too large to upload on github. Please email the authors or you can directly source all the data from https://github.com/isds-neu/EQDiscovery/blob/master/Examples/Discovery%20with%20Single%20Dataset/Lambda_Omega/DropboxLinkforData.
+
+
