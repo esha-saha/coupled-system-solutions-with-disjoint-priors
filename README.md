@@ -8,7 +8,7 @@ Note that the training and validation splits are random and so the results might
 
 The details of compute resources used in training of these models along with time taken for each of the models is given below. 
 
-Computation resources: The authors used the Trillium Cluster under Digital Research Alliance of Canada (formerly known as Compute Canada). For some initial simulations, evaluations and plot generation, Google Colab was also used.
+**Computation resources**: The authors used the Trillium Cluster under Digital Research Alliance of Canada (formerly known as Compute Canada). For some initial simulations, evaluations and plot generation, Google Colab was also used.
 
 Computational time: 
 ### SWE System
