@@ -7,7 +7,7 @@ $h_t + hu_x = 0$
 $(hu)_t + \left(hu^2 + \frac{1}{2}gh^2\right)_x + g(z_b)_x=0$.
 
  
-We apply this system to the well-known dam break problem \citep{crowhurst2013numerical}. For $\Omega\times [0,1]$, where $\Omega = [0,10]$, assuming bed surface $z_b = 0$, we obtain the full-field solution of this system using the initial conditions, 
+We apply this system to the well-known dam break problem. For $\Omega\times [0,1]$, where $\Omega = [0,10]$, assuming bed surface $z_b = 0$, we obtain the full-field solution of this system using the initial conditions, 
 
 $h(x,0) =  \left( 1 \text{ if } x\in [0,5] \text{ and } 0 \text{ if } x\in (5,1] \right)$
 
