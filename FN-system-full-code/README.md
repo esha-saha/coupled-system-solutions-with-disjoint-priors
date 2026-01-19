@@ -9,4 +9,4 @@ The FN equations are generally used to describe pattern formation in biological 
 We generate the ground truth data by solving the system using a finite difference method with initial conditions taken as random vectors such that $u(x,y,0),v(x,y,0) \sim \mathcal{N}(\mathbf{0},0.2\mathbf{I}_2)$, where $\mathbf{0}$ and $\mathbf{I}_2$ denote the zero vector and $2\times 2$ identity matrix respectively.
 The system is solved using $dx = dy = 0.5$ for $x,y \in [0,100]$ and $dt = 0.0005$ for $t\in [0,60]$. We select 50 evenly spaced data in time for $t\in [10,60]$ and 100  evenly spaced spatial data in both $x$ and $y$ direction to create the full-field ground truth dataset of size (100,100,50). 
 
-
+Note: One of the the best trained neural network model that has been used to some of the figures in the paper have been given in fhn-5000Ns-lr-0.005-L0-0.0001-4Layers-200dim-Best. The simulated data Data_FHN_U.npy and Data_FHN_V.npy has been directly sourced from Chen at. al. (2021).
