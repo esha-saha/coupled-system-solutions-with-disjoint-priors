@@ -26,3 +26,8 @@ This model can be solved numerically to obtain fire spread dynamics in a given s
 | $\alpha$    | Natural convection                            | 0.01                    |
 | $q$         | Reaction heat                                 | 1                       |
 | $u_{pc}$    | Phase change threshold                        | 3                       |
+
+Notes:
+1. One of the the best trained neural network model that has been used to some of the figures in the paper have been given in rd-wildfire-test-L0-RandomWind-lr-0.005-Ns-1000-100dim.
+
+2. The file VV.npy is too large to upload on github. Please use unzip VV-npy.zip for the relevant file.
