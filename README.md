@@ -13,7 +13,7 @@ $u_i(\mathbf{x},t) = g_i(\mathbf{x},t), \mathbf{x}\in\partial\Omega, t\in(0,T]$,
 
 where $\nabla$ denotes spatial derivatives and $\partial\Omega$ denotes the boundary of the domain. For $0<k<n$, suppose measured data for solutions $\{u_1,\dots,u_k\}$ are available (\textit{data variables}) and the functions $\{F_{k+1},\dots,F_n\}$ (vector fields of the \textit{equation variables}) are known such that there is no overlap between the equation and data variables. 
 
-**Goal:** Learn the full solution $\{u_1,\dots,u_k,\dots,u_n\}$ in a given time interval.
+**Goal:** Learn the full solution $\{u_1,\dots,u_k,\dots,u_n\}$ in a given time interval. The main model used is a neural network with multiple layers (https://docs.pytorch.org/tutorials/beginner/basics/buildmodel_tutorial.html)
 
 ### How to use this repository?
 This repository contains four folders, one for each of the coupled systems in the paper. Each folder contains multiple files that include a python notebook containing the model training, a sample trained model that can be directly used to replicate some results in the paper, and any relevant datatset (if applicable).
