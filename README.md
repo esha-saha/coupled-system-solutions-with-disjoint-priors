@@ -1,5 +1,7 @@
 # This is the official repository of MUSIC (Multitask Learning Under Sparse and Incomplete Constraints)
 
+The corresponding paper title "Learning Coupled System Dynamics under Incomplete Physical Constraints and Missing Data" can be found at https://arxiv.org/pdf/2512.23761.
+
 ## Problem Statement
 Let $\Omega\subset\mathbb{R}^d$ be a spatial domain and $T>0$ be a final time. Our goal is to learn the solutions $\mathbf{u} = \{u_1,u_2,\dots,u_n\}$, $\mathbf{u}:\Omega\times (0,T]\rightarrow\mathbb{R}^n$ governed by a set of $n$ partial differential equations (PDEs) i.e.,
 
@@ -61,15 +63,11 @@ The table above depicts the training time (in seconds) for the physical system o
 
 ### Citation details
 
-@misc{https://doi.org/10.48550/arxiv.2202.02877,
-      doi = {10.48550/ARXIV.2202.02877},
-      url = {https://arxiv.org/abs/2202.02877},
-      author = {Saha, Esha and Schaeffer, Hayden and Tran, Giang},
-      keywords = {Machine Learning (stat.ML), Machine Learning (cs.LG), Optimization and Control (math.OC), FOS: Computer and information sciences, FOS: Computer and information sciences, FOS: Mathematics, FOS: Mathematics},
-      title = {HARFE: Hard-Ridge Random Feature Expansion},
-      publisher = {arXiv},
-      year = {2022},
-      copyright = {arXiv.org perpetual, non-exclusive license}
+      @misc{title = {Learning Coupled System Dynamics under Incomplete Physical Constraints and Missing Data},
+            url = {https://arxiv.org/pdf/2512.23761},
+            author = {Saha, Esha and Wang, Hao},
+            publisher = {arXiv},
+            year = {2025}
     }
 
 
