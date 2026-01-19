@@ -61,18 +61,16 @@ The table above depicts the training time (in seconds) for the physical system o
 
 ### Citation details
 
-If you found this paper/repository useful, please use the following to cite this paper.
-
-  @misc{https://doi.org/10.48550/arxiv.2211.08277,
-  doi = {10.48550/ARXIV.2211.08277},
-  url = {https://arxiv.org/abs/2211.08277},
-  author = {Saha, Esha and Ho, Lam Si Tung and Tran, Giang},
-  keywords = {Machine Learning (cs.LG), Physics and Society (physics.soc-ph), Populations and Evolution (q-bio.PE), FOS: Computer and information        sciences, FOS: Computer and information sciences, FOS: Physical sciences, FOS: Physical sciences, FOS: Biological sciences, FOS: Biological sciences},
-  title = {SPADE4: Sparsity and Delay Embedding based Forecasting of Epidemics},
-  publisher = {arXiv},
-  year = {2022},
-  copyright = {arXiv.org perpetual, non-exclusive license}
-  }
+@misc{https://doi.org/10.48550/arxiv.2202.02877,
+      doi = {10.48550/ARXIV.2202.02877},
+      url = {https://arxiv.org/abs/2202.02877},
+      author = {Saha, Esha and Schaeffer, Hayden and Tran, Giang},
+      keywords = {Machine Learning (stat.ML), Machine Learning (cs.LG), Optimization and Control (math.OC), FOS: Computer and information sciences, FOS: Computer and information sciences, FOS: Mathematics, FOS: Mathematics},
+      title = {HARFE: Hard-Ridge Random Feature Expansion},
+      publisher = {arXiv},
+      year = {2022},
+      copyright = {arXiv.org perpetual, non-exclusive license}
+    }
 
 
 
