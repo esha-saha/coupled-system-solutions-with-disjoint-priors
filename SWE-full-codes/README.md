@@ -1,3 +1,5 @@
+## Shallow Water Equations Systems
+
 This folder contains implementations of the SWE system of equations.
 
 Given $x\in \Omega$, where $\Omega\subset\mathbb{R}$ denotes the (spatial) input domain, suppose $h$ denotes the height of water, and $u$ denotes the horizontal velocity. For $g = 9.81$ $ms^{-2}$ (gravitational constant) and bed surface $z_b$, the (rearranged) 1D SWE is given by
